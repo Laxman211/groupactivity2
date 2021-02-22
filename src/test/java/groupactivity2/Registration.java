@@ -114,6 +114,7 @@ public class Registration {
 	        File DestFile=new File("./target/ScreenShots/RegisteredSuccessful.png");    
 	        FileUtils.copyFile(SrcFile, DestFile);
 	        
+	        driver.quit();
 	    }
 	  
 }
