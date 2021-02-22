@@ -106,8 +106,8 @@ public class Registration {
 	    	driver.findElement(By.id("phone_mobile")).sendKeys("9360654287");
 	    	Thread.sleep(3000);
 	    	
-	    	//driver.findElement(By.id("submitAccount")).click();
-	    	//Thread.sleep(2000);
+	    	driver.findElement(By.id("submitAccount")).click();
+	    	Thread.sleep(2000);
 	    	
 	    	TakesScreenshot takescreenshots =((TakesScreenshot)driver);
 	        File SrcFile=takescreenshots.getScreenshotAs(OutputType.FILE);
